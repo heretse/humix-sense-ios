@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0378942AFEE68948D5ACDE30 /* Pods_HumixSenseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB12010C667E2F98DDB4EC8 /* Pods_HumixSenseUITests.framework */; };
+		59077BC5F545749BF815671A /* Pods_HumixSenseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700DADF4159F848D655F4160 /* Pods_HumixSenseTests.framework */; };
+		90378E42C3D93D862D7B4319 /* Pods_HumixSense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4155FE8A2D75BF7D815F46 /* Pods_HumixSense.framework */; };
+		ABE432CA1F0E8ADE002EB384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE432C91F0E8ADE002EB384 /* AppDelegate.swift */; };
+		ABE432CC1F0E8ADE002EB384 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE432CB1F0E8ADE002EB384 /* ViewController.swift */; };
+		ABE432CF1F0E8ADE002EB384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE432CD1F0E8ADE002EB384 /* Main.storyboard */; };
+		ABE432D21F0E8ADE002EB384 /* HumixSense.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABE432D01F0E8ADE002EB384 /* HumixSense.xcdatamodeld */; };
+		ABE432D41F0E8ADE002EB384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE432D31F0E8ADE002EB384 /* Assets.xcassets */; };
+		ABE432D71F0E8ADE002EB384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE432D51F0E8ADE002EB384 /* LaunchScreen.storyboard */; };
+		ABE432E21F0E8ADE002EB384 /* HumixSenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE432E11F0E8ADE002EB384 /* HumixSenseTests.swift */; };
+		ABE432ED1F0E8ADE002EB384 /* HumixSenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE432EC1F0E8ADE002EB384 /* HumixSenseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABE432DE1F0E8ADE002EB384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABE432BE1F0E8ADE002EB384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABE432C51F0E8ADE002EB384;
+			remoteInfo = HumixSense;
+		};
+		ABE432E91F0E8ADE002EB384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABE432BE1F0E8ADE002EB384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABE432C51F0E8ADE002EB384;
+			remoteInfo = HumixSense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043D6B63B1CB6937949CD176 /* Pods-HumixSenseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumixSenseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HumixSenseTests/Pods-HumixSenseTests.release.xcconfig"; sourceTree = "<group>"; };
+		129079358628445B144DA568 /* Pods-HumixSenseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumixSenseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HumixSenseTests/Pods-HumixSenseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D4E32B7ABDB935E9156921D /* Pods-HumixSenseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumixSenseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HumixSenseUITests/Pods-HumixSenseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B4155FE8A2D75BF7D815F46 /* Pods_HumixSense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumixSense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		700DADF4159F848D655F4160 /* Pods_HumixSenseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumixSenseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE432C61F0E8ADE002EB384 /* HumixSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumixSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE432C91F0E8ADE002EB384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABE432CB1F0E8ADE002EB384 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABE432CE1F0E8ADE002EB384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABE432D11F0E8ADE002EB384 /* HumixSense.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HumixSense.xcdatamodel; sourceTree = "<group>"; };
+		ABE432D31F0E8ADE002EB384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABE432D61F0E8ADE002EB384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABE432D81F0E8ADE002EB384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE432DD1F0E8ADE002EB384 /* HumixSenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumixSenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE432E11F0E8ADE002EB384 /* HumixSenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumixSenseTests.swift; sourceTree = "<group>"; };
+		ABE432E31F0E8ADE002EB384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE432E81F0E8ADE002EB384 /* HumixSenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumixSenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABE432EC1F0E8ADE002EB384 /* HumixSenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumixSenseUITests.swift; sourceTree = "<group>"; };
+		ABE432EE1F0E8ADE002EB384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB12010C667E2F98DDB4EC8 /* Pods_HumixSenseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumixSenseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E99BB4678B4B55132B44AA /* Pods-HumixSenseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumixSenseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HumixSenseUITests/Pods-HumixSenseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5BBD16BC183B9444C8B6E18 /* Pods-HumixSense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumixSense.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HumixSense/Pods-HumixSense.debug.xcconfig"; sourceTree = "<group>"; };
+		C95BC69874532AE44D6654D8 /* Pods-HumixSense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumixSense.release.xcconfig"; path = "Pods/Target Support Files/Pods-HumixSense/Pods-HumixSense.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABE432C31F0E8ADE002EB384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90378E42C3D93D862D7B4319 /* Pods_HumixSense.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE432DA1F0E8ADE002EB384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59077BC5F545749BF815671A /* Pods_HumixSenseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE432E51F0E8ADE002EB384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0378942AFEE68948D5ACDE30 /* Pods_HumixSenseUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABE432BD1F0E8ADE002EB384 = {
+			isa = PBXGroup;
+			children = (
+				ABE432C81F0E8ADE002EB384 /* HumixSense */,
+				ABE432E01F0E8ADE002EB384 /* HumixSenseTests */,
+				ABE432EB1F0E8ADE002EB384 /* HumixSenseUITests */,
+				ABE432C71F0E8ADE002EB384 /* Products */,
+				EBFD26842318B01BD89F4796 /* Pods */,
+				AF79EB0D1BB7B204A23F3DBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABE432C71F0E8ADE002EB384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABE432C61F0E8ADE002EB384 /* HumixSense.app */,
+				ABE432DD1F0E8ADE002EB384 /* HumixSenseTests.xctest */,
+				ABE432E81F0E8ADE002EB384 /* HumixSenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABE432C81F0E8ADE002EB384 /* HumixSense */ = {
+			isa = PBXGroup;
+			children = (
+				ABE432C91F0E8ADE002EB384 /* AppDelegate.swift */,
+				ABE432CB1F0E8ADE002EB384 /* ViewController.swift */,
+				ABE432CD1F0E8ADE002EB384 /* Main.storyboard */,
+				ABE432D31F0E8ADE002EB384 /* Assets.xcassets */,
+				ABE432D51F0E8ADE002EB384 /* LaunchScreen.storyboard */,
+				ABE432D81F0E8ADE002EB384 /* Info.plist */,
+				ABE432D01F0E8ADE002EB384 /* HumixSense.xcdatamodeld */,
+			);
+			path = HumixSense;
+			sourceTree = "<group>";
+		};
+		ABE432E01F0E8ADE002EB384 /* HumixSenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABE432E11F0E8ADE002EB384 /* HumixSenseTests.swift */,
+				ABE432E31F0E8ADE002EB384 /* Info.plist */,
+			);
+			path = HumixSenseTests;
+			sourceTree = "<group>";
+		};
+		ABE432EB1F0E8ADE002EB384 /* HumixSenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABE432EC1F0E8ADE002EB384 /* HumixSenseUITests.swift */,
+				ABE432EE1F0E8ADE002EB384 /* Info.plist */,
+			);
+			path = HumixSenseUITests;
+			sourceTree = "<group>";
+		};
+		AF79EB0D1BB7B204A23F3DBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B4155FE8A2D75BF7D815F46 /* Pods_HumixSense.framework */,
+				700DADF4159F848D655F4160 /* Pods_HumixSenseTests.framework */,
+				AFB12010C667E2F98DDB4EC8 /* Pods_HumixSenseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBFD26842318B01BD89F4796 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5BBD16BC183B9444C8B6E18 /* Pods-HumixSense.debug.xcconfig */,
+				C95BC69874532AE44D6654D8 /* Pods-HumixSense.release.xcconfig */,
+				129079358628445B144DA568 /* Pods-HumixSenseTests.debug.xcconfig */,
+				043D6B63B1CB6937949CD176 /* Pods-HumixSenseTests.release.xcconfig */,
+				B7E99BB4678B4B55132B44AA /* Pods-HumixSenseUITests.debug.xcconfig */,
+				2D4E32B7ABDB935E9156921D /* Pods-HumixSenseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABE432C51F0E8ADE002EB384 /* HumixSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE432F11F0E8ADE002EB384 /* Build configuration list for PBXNativeTarget "HumixSense" */;
+			buildPhases = (
+				4B5E0AAE6AB730E72EA0A6B6 /* [CP] Check Pods Manifest.lock */,
+				ABE432C21F0E8ADE002EB384 /* Sources */,
+				ABE432C31F0E8ADE002EB384 /* Frameworks */,
+				ABE432C41F0E8ADE002EB384 /* Resources */,
+				AE34F097C4A1C30085CF13B0 /* [CP] Embed Pods Frameworks */,
+				4F93CCBBE8B1A304E503C02E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HumixSense;
+			productName = HumixSense;
+			productReference = ABE432C61F0E8ADE002EB384 /* HumixSense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABE432DC1F0E8ADE002EB384 /* HumixSenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE432F41F0E8ADE002EB384 /* Build configuration list for PBXNativeTarget "HumixSenseTests" */;
+			buildPhases = (
+				2F826640214DDD91C148E96A /* [CP] Check Pods Manifest.lock */,
+				ABE432D91F0E8ADE002EB384 /* Sources */,
+				ABE432DA1F0E8ADE002EB384 /* Frameworks */,
+				ABE432DB1F0E8ADE002EB384 /* Resources */,
+				11F5C360744C9EAFBC86C365 /* [CP] Embed Pods Frameworks */,
+				79913A39C51A752C77D0DCF0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABE432DF1F0E8ADE002EB384 /* PBXTargetDependency */,
+			);
+			name = HumixSenseTests;
+			productName = HumixSenseTests;
+			productReference = ABE432DD1F0E8ADE002EB384 /* HumixSenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABE432E71F0E8ADE002EB384 /* HumixSenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABE432F71F0E8ADE002EB384 /* Build configuration list for PBXNativeTarget "HumixSenseUITests" */;
+			buildPhases = (
+				E90354F9FC689D87F49B175C /* [CP] Check Pods Manifest.lock */,
+				ABE432E41F0E8ADE002EB384 /* Sources */,
+				ABE432E51F0E8ADE002EB384 /* Frameworks */,
+				ABE432E61F0E8ADE002EB384 /* Resources */,
+				32B35FA5094DE9AB789BB234 /* [CP] Embed Pods Frameworks */,
+				3AD48B6216E8D2E15ADD2667 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABE432EA1F0E8ADE002EB384 /* PBXTargetDependency */,
+			);
+			name = HumixSenseUITests;
+			productName = HumixSenseUITests;
+			productReference = ABE432E81F0E8ADE002EB384 /* HumixSenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABE432BE1F0E8ADE002EB384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Humix Community";
+				TargetAttributes = {
+					ABE432C51F0E8ADE002EB384 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					ABE432DC1F0E8ADE002EB384 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = ABE432C51F0E8ADE002EB384;
+					};
+					ABE432E71F0E8ADE002EB384 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = ABE432C51F0E8ADE002EB384;
+					};
+				};
+			};
+			buildConfigurationList = ABE432C11F0E8ADE002EB384 /* Build configuration list for PBXProject "HumixSense" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABE432BD1F0E8ADE002EB384;
+			productRefGroup = ABE432C71F0E8ADE002EB384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABE432C51F0E8ADE002EB384 /* HumixSense */,
+				ABE432DC1F0E8ADE002EB384 /* HumixSenseTests */,
+				ABE432E71F0E8ADE002EB384 /* HumixSenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABE432C41F0E8ADE002EB384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE432D71F0E8ADE002EB384 /* LaunchScreen.storyboard in Resources */,
+				ABE432D41F0E8ADE002EB384 /* Assets.xcassets in Resources */,
+				ABE432CF1F0E8ADE002EB384 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE432DB1F0E8ADE002EB384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE432E61F0E8ADE002EB384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F5C360744C9EAFBC86C365 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumixSenseTests/Pods-HumixSenseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F826640214DDD91C148E96A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32B35FA5094DE9AB789BB234 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumixSenseUITests/Pods-HumixSenseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AD48B6216E8D2E15ADD2667 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumixSenseUITests/Pods-HumixSenseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B5E0AAE6AB730E72EA0A6B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F93CCBBE8B1A304E503C02E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumixSense/Pods-HumixSense-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79913A39C51A752C77D0DCF0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumixSenseTests/Pods-HumixSenseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE34F097C4A1C30085CF13B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HumixSense/Pods-HumixSense-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E90354F9FC689D87F49B175C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABE432C21F0E8ADE002EB384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE432D21F0E8ADE002EB384 /* HumixSense.xcdatamodeld in Sources */,
+				ABE432CC1F0E8ADE002EB384 /* ViewController.swift in Sources */,
+				ABE432CA1F0E8ADE002EB384 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE432D91F0E8ADE002EB384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE432E21F0E8ADE002EB384 /* HumixSenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE432E41F0E8ADE002EB384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABE432ED1F0E8ADE002EB384 /* HumixSenseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABE432DF1F0E8ADE002EB384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABE432C51F0E8ADE002EB384 /* HumixSense */;
+			targetProxy = ABE432DE1F0E8ADE002EB384 /* PBXContainerItemProxy */;
+		};
+		ABE432EA1F0E8ADE002EB384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABE432C51F0E8ADE002EB384 /* HumixSense */;
+			targetProxy = ABE432E91F0E8ADE002EB384 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABE432CD1F0E8ADE002EB384 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABE432CE1F0E8ADE002EB384 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABE432D51F0E8ADE002EB384 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABE432D61F0E8ADE002EB384 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABE432EF1F0E8ADE002EB384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABE432F01F0E8ADE002EB384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABE432F21F0E8ADE002EB384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5BBD16BC183B9444C8B6E18 /* Pods-HumixSense.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VFEC6728B4;
+				INFOPLIST_FILE = HumixSense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.HumixSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABE432F31F0E8ADE002EB384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95BC69874532AE44D6654D8 /* Pods-HumixSense.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VFEC6728B4;
+				INFOPLIST_FILE = HumixSense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.HumixSense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABE432F51F0E8ADE002EB384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 129079358628445B144DA568 /* Pods-HumixSenseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VFEC6728B4;
+				INFOPLIST_FILE = HumixSenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.HumixSenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumixSense.app/HumixSense";
+			};
+			name = Debug;
+		};
+		ABE432F61F0E8ADE002EB384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043D6B63B1CB6937949CD176 /* Pods-HumixSenseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VFEC6728B4;
+				INFOPLIST_FILE = HumixSenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.HumixSenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumixSense.app/HumixSense";
+			};
+			name = Release;
+		};
+		ABE432F81F0E8ADE002EB384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E99BB4678B4B55132B44AA /* Pods-HumixSenseUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VFEC6728B4;
+				INFOPLIST_FILE = HumixSenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.HumixSenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumixSense;
+			};
+			name = Debug;
+		};
+		ABE432F91F0E8ADE002EB384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D4E32B7ABDB935E9156921D /* Pods-HumixSenseUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VFEC6728B4;
+				INFOPLIST_FILE = HumixSenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.HumixSenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumixSense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABE432C11F0E8ADE002EB384 /* Build configuration list for PBXProject "HumixSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE432EF1F0E8ADE002EB384 /* Debug */,
+				ABE432F01F0E8ADE002EB384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABE432F11F0E8ADE002EB384 /* Build configuration list for PBXNativeTarget "HumixSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE432F21F0E8ADE002EB384 /* Debug */,
+				ABE432F31F0E8ADE002EB384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABE432F41F0E8ADE002EB384 /* Build configuration list for PBXNativeTarget "HumixSenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE432F51F0E8ADE002EB384 /* Debug */,
+				ABE432F61F0E8ADE002EB384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ABE432F71F0E8ADE002EB384 /* Build configuration list for PBXNativeTarget "HumixSenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABE432F81F0E8ADE002EB384 /* Debug */,
+				ABE432F91F0E8ADE002EB384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ABE432D01F0E8ADE002EB384 /* HumixSense.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ABE432D11F0E8ADE002EB384 /* HumixSense.xcdatamodel */,
+			);
+			currentVersion = ABE432D11F0E8ADE002EB384 /* HumixSense.xcdatamodel */;
+			path = HumixSense.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ABE432BE1F0E8ADE002EB384 /* Project object */;
+}
