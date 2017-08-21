@@ -1,15 +1,24 @@
 PODS:
-  - ReactiveSwift (1.1.3):
+  - ReachabilitySwift (3)
+  - ReactiveCocoa (6.0.1):
+    - ReactiveSwift (~> 2.0)
+  - ReactiveSwift (2.0.1):
     - Result (~> 3.2)
   - Result (3.2.3)
+  - SwiftWebSocket (2.6.5)
 
 DEPENDENCIES:
-  - ReactiveSwift (~> 1.1)
+  - ReachabilitySwift (~> 3)
+  - ReactiveCocoa (~> 6.0)
+  - SwiftWebSocket (~> 2.6)
 
 SPEC CHECKSUMS:
-  ReactiveSwift: f54ba12c2e799003432930fa55495315ae44f32b
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  ReactiveCocoa: cf6595131c832c468fe3f84a2d7f74ed68eb3058
+  ReactiveSwift: 60a29ff35988a964fd2bb759755cb6594de523fc
   Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  SwiftWebSocket: 1ef8a0efb023544643bdf480c1ec4a62b204f293
 
-PODFILE CHECKSUM: b9809fbd04a64a4b842306ac198d3600280cf04c
+PODFILE CHECKSUM: feda188877380a5e6c67484679ee20a70e7b96ae
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.2.1

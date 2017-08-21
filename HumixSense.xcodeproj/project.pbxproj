@@ -10,8 +10,10 @@
 		0378942AFEE68948D5ACDE30 /* Pods_HumixSenseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB12010C667E2F98DDB4EC8 /* Pods_HumixSenseUITests.framework */; };
 		59077BC5F545749BF815671A /* Pods_HumixSenseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 700DADF4159F848D655F4160 /* Pods_HumixSenseTests.framework */; };
 		90378E42C3D93D862D7B4319 /* Pods_HumixSense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4155FE8A2D75BF7D815F46 /* Pods_HumixSense.framework */; };
+		AB68D6931F3C0B8A00F6738C /* HumixAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68D6921F3C0B8A00F6738C /* HumixAgent.swift */; };
+		AB9C76E91F4488CA0037ED0D /* HumixSenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9C76E81F4488CA0037ED0D /* HumixSenseViewModel.swift */; };
 		ABE432CA1F0E8ADE002EB384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE432C91F0E8ADE002EB384 /* AppDelegate.swift */; };
-		ABE432CC1F0E8ADE002EB384 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE432CB1F0E8ADE002EB384 /* ViewController.swift */; };
+		ABE432CC1F0E8ADE002EB384 /* HumixSenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE432CB1F0E8ADE002EB384 /* HumixSenseViewController.swift */; };
 		ABE432CF1F0E8ADE002EB384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE432CD1F0E8ADE002EB384 /* Main.storyboard */; };
 		ABE432D21F0E8ADE002EB384 /* HumixSense.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ABE432D01F0E8ADE002EB384 /* HumixSense.xcdatamodeld */; };
 		ABE432D41F0E8ADE002EB384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE432D31F0E8ADE002EB384 /* Assets.xcassets */; };
@@ -43,9 +45,11 @@
 		2D4E32B7ABDB935E9156921D /* Pods-HumixSenseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumixSenseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HumixSenseUITests/Pods-HumixSenseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3B4155FE8A2D75BF7D815F46 /* Pods_HumixSense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumixSense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		700DADF4159F848D655F4160 /* Pods_HumixSenseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumixSenseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB68D6921F3C0B8A00F6738C /* HumixAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumixAgent.swift; sourceTree = "<group>"; };
+		AB9C76E81F4488CA0037ED0D /* HumixSenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumixSenseViewModel.swift; sourceTree = "<group>"; };
 		ABE432C61F0E8ADE002EB384 /* HumixSense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumixSense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE432C91F0E8ADE002EB384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABE432CB1F0E8ADE002EB384 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABE432CB1F0E8ADE002EB384 /* HumixSenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumixSenseViewController.swift; sourceTree = "<group>"; };
 		ABE432CE1F0E8ADE002EB384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABE432D11F0E8ADE002EB384 /* HumixSense.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HumixSense.xcdatamodel; sourceTree = "<group>"; };
 		ABE432D31F0E8ADE002EB384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,11 +121,13 @@
 			isa = PBXGroup;
 			children = (
 				ABE432C91F0E8ADE002EB384 /* AppDelegate.swift */,
-				ABE432CB1F0E8ADE002EB384 /* ViewController.swift */,
+				ABE432CB1F0E8ADE002EB384 /* HumixSenseViewController.swift */,
+				AB9C76E81F4488CA0037ED0D /* HumixSenseViewModel.swift */,
 				ABE432CD1F0E8ADE002EB384 /* Main.storyboard */,
 				ABE432D31F0E8ADE002EB384 /* Assets.xcassets */,
 				ABE432D51F0E8ADE002EB384 /* LaunchScreen.storyboard */,
 				ABE432D81F0E8ADE002EB384 /* Info.plist */,
+				AB68D6921F3C0B8A00F6738C /* HumixAgent.swift */,
 				ABE432D01F0E8ADE002EB384 /* HumixSense.xcdatamodeld */,
 			);
 			path = HumixSense;
@@ -331,7 +337,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		32B35FA5094DE9AB789BB234 /* [CP] Embed Pods Frameworks */ = {
@@ -376,7 +382,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		4F93CCBBE8B1A304E503C02E /* [CP] Copy Pods Resources */ = {
@@ -436,7 +442,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -447,7 +453,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE432D21F0E8ADE002EB384 /* HumixSense.xcdatamodeld in Sources */,
-				ABE432CC1F0E8ADE002EB384 /* ViewController.swift in Sources */,
+				AB68D6931F3C0B8A00F6738C /* HumixAgent.swift in Sources */,
+				ABE432CC1F0E8ADE002EB384 /* HumixSenseViewController.swift in Sources */,
+				AB9C76E91F4488CA0037ED0D /* HumixSenseViewModel.swift in Sources */,
 				ABE432CA1F0E8ADE002EB384 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,7 +624,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.HumixSense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -631,7 +639,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.HumixSense;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -721,6 +729,7 @@
 				ABE432F31F0E8ADE002EB384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABE432F41F0E8ADE002EB384 /* Build configuration list for PBXNativeTarget "HumixSenseTests" */ = {
 			isa = XCConfigurationList;
@@ -729,6 +738,7 @@
 				ABE432F61F0E8ADE002EB384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABE432F71F0E8ADE002EB384 /* Build configuration list for PBXNativeTarget "HumixSenseUITests" */ = {
 			isa = XCConfigurationList;
@@ -737,6 +747,7 @@
 				ABE432F91F0E8ADE002EB384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

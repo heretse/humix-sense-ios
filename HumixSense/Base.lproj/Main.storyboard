@@ -1,14 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13178.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Humix Sense View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HumixSenseViewController" customModule="HumixSense" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,8 +19,60 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HumixThink" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5nJ-H3-4nL">
+                                <rect key="frame" x="126.5" y="45" width="121.5" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://humix-test-taipei.mybluemix.net" borderStyle="roundedRect" placeholder="HumixThink URL" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q9H-KC-EzR">
+                                <rect key="frame" x="0.0" y="82" width="375" height="50"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Xf2-Mm-Gzh"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="audiobox-607af1" borderStyle="roundedRect" placeholder="Sense ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MWn-FC-Mxa">
+                                <rect key="frame" x="0.0" y="140" width="375" height="50"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="NAQ-DJ-Sol"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZH-nG-941">
+                                <rect key="frame" x="139" y="210" width="96" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="hHQ-zb-Y66"/>
+                                </constraints>
+                                <state key="normal" title="Connect"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="5nJ-H3-4nL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="1kS-e6-BtM"/>
+                            <constraint firstItem="KZH-nG-941" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="66e-Fz-Eje"/>
+                            <constraint firstItem="KZH-nG-941" firstAttribute="top" secondItem="MWn-FC-Mxa" secondAttribute="bottom" constant="20" id="9ql-OR-QDe"/>
+                            <constraint firstItem="Q9H-KC-EzR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DIb-5d-UeK"/>
+                            <constraint firstItem="Q9H-KC-EzR" firstAttribute="top" secondItem="5nJ-H3-4nL" secondAttribute="bottom" constant="8" id="Nhh-Bh-bjw"/>
+                            <constraint firstItem="MWn-FC-Mxa" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Qhe-hU-31y"/>
+                            <constraint firstItem="MWn-FC-Mxa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZHX-a9-A6a"/>
+                            <constraint firstItem="5nJ-H3-4nL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aKc-gS-AVF"/>
+                            <constraint firstItem="Q9H-KC-EzR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="gBa-r7-FLh"/>
+                            <constraint firstItem="MWn-FC-Mxa" firstAttribute="top" secondItem="Q9H-KC-EzR" secondAttribute="bottom" constant="8" id="sDO-L4-hse"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnConnect" destination="KZH-nG-941" id="Ssc-ig-XUF"/>
+                        <outlet property="tfSenseId" destination="MWn-FC-Mxa" id="qDr-EG-MnY"/>
+                        <outlet property="tfThinkUrl" destination="Q9H-KC-EzR" id="ZyT-c5-0FP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

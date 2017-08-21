@@ -6,7 +6,9 @@ target 'HumixSense' do
   use_frameworks!
 
   # Pods for HumixSense
-  pod 'ReactiveSwift', '~> 1.1'
+  pod 'ReachabilitySwift', '~> 3'
+  pod 'ReactiveCocoa', '~> 6.0'
+  pod 'SwiftWebSocket', '~> 2.6'
 
   target 'HumixSenseTests' do
     inherit! :search_paths
