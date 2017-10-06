@@ -60,6 +60,7 @@ class HumixSenseViewModel: HumixAgentDelegate {
         case .CONNECTED:
             title4ConnBtn.value  = "Disconnect"
             uiEnabled4ConnBtn.value = true
+            self.humixAgent.registerModules()
         case .ERROR:
             title4ConnBtn.value  = "Connect"
             uiEnabled4ConnBtn.value =  true

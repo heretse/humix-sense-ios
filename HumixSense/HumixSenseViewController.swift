@@ -47,7 +47,7 @@ class HumixSenseViewController: UIViewController, UITextFieldDelegate {
         
         self.btnConnect.reactive.title <~ viewModel.title4ConnBtn
         
-        self.btnConnect.reactive.isUserInteractionEnabled <~ viewModel.uiEnabled4ConnBtn
+        self.btnConnect.reactive.isEnabled <~ viewModel.uiEnabled4ConnBtn
 
         self.btnConnect.reactive.pressed = CocoaAction(viewModel.connectAction) { button in
             _ = button
